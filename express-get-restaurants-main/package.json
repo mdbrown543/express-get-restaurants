@@ -1,18 +1,19 @@
 {
   "name": "express_and_sequelize_practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using Express to GET all the restaurants in a DB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.18.1",
     "path": "^0.12.7",
     "sequelize": "^6.17.0",
-    "sqlite3": "5.0.2"
+    "sqlite3": "^5.0.8"
   }
 }
